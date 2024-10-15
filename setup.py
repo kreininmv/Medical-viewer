@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Medical-viewer',
-    version='0.1.0',
+    name='medical',
+    version='0.1.1',
+    author='Kreinin Matvei',
     packages=find_packages(),
     install_requires=[
         "numpy>=1.18.0,<2.0.0",

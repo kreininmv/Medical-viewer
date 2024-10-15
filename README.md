@@ -75,7 +75,7 @@ Here’s an example of how to use the PatientViewer3D class:
 
 ```python
 import numpy as np
-from patient_viewer import PatientViewer3D
+from medical.viewer import PatientViewer3D
 
 # Example 3D volume and mask (replace with your own medical data)
 volume = np.random.rand(256, 256, 100)  # Replace with actual medical image data
